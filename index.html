@@ -160,20 +160,20 @@
                     <div class="container" id="mc_embed_signup">
                         <label for="show" class="close-btn fas fa-times" title="close"></label>
                         <div class="text">Informate Gratis</div>
-                        <form id="task-form">
+                        <form id="task-form" >
                             <div class="data" class="mc-field-group">
                                 <label>Nombre</label>
-                                <input type="text" id="nombre" class="form-control" class="Task Title"
+                                <input type="text" id="nombre" class="form-control" class="Task Title" required
                                     placeholder="Tu nombre" autofocus>
                             </div>
                             <div class="data" class="mc-field-group">
                                 <label>Apellido</label>
-                                <input type="text" id="apellido" class="form-control" class="Task Title"
+                                <input type="text" id="apellido" class="form-control" class="Task Title" required
                                     placeholder="Tu apellido" autofocus>
                             </div>
                             <div class="data" class="mc-field-group">
                                 <label>Email</label>
-                                <input class="email" type="text " id="email" class="form-control"
+                                <input class="email" type="text " id="email" class="form-control" required
                                     placeholder="example@example.com">
                             </div>
                             <div class="data" class="mc-field-group">
@@ -288,8 +288,8 @@
                             </div>
 
                             
-                            <div class="btn" class="full">
-                                <button id="enviar" onclick="location.href='/landing/welcome'">Enviar</button>
+                            <div class="btn"  class="full">
+                                <button id="enviar" type="submit">Enviar</button>                              
                             </div>
 
                         </form>
@@ -315,7 +315,7 @@
                         // Initialize Firebase
                         firebase.initializeApp(firebaseConfig);
                     </script>
-
+                   
                     <!-- CUSTOM CODE -->
                     <script src="index.js"></script>
                 </div>

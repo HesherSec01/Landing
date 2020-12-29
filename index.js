@@ -104,7 +104,9 @@ taskForm.addEventListener("submit", async (e) => {
 
   try {
     if (!editStatus) {
+      
       await saveTask(nombre.value, apellido.value,email.value, whatsapp.value, pais.value);
+      window.location.href = '/landing/welcome/'
     } else {
       await updateTask(id, {
         nombre: nombre.value,
