@@ -19,8 +19,17 @@ body {
 h3 {
 	opacity: 0.6;
 	font-size: 15px;
-	margin: 5px;
 	text-transform: uppercase;
+}
+
+h4 {
+	opacity: 0.6;
+	font-size: 15px;
+}
+
+.text-3 span{
+    color:  #1cbbb4;
+    font-weight: 500;
 }
 
 h6 {

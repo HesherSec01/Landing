@@ -4,7 +4,7 @@ $(document).ready(function(){
    
     var typed = new Typed(".typing", {
         strings: ["Redirigiendo..."],
-        typeSpeed: 50,
+        typeSpeed: 38,
         backSpeed: 20,
         loop: true
     });
