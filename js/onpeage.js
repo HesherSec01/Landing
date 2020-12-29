@@ -36,14 +36,14 @@ $(document).ready(function(){
     // typing text animation script
    
     var typed = new Typed(".typing", {
-        strings: ["Sostenibilidad","Administración de Negocios Ambientales","Proyectos: Línea de Investigación en Medio Ambiente","Conservacion y Restauracion del Medio Natural"],
+        strings: ["Fondo Verde","Fondo Verde Institute","IIFA","PMA"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Doctorados", "Maestrías", "Diplomados", "Titulos Propios"],
+        strings: ["Doctorados", "Maestrías", "Diplomados", "Titulos Propios", "Quick Master", "Certificaciones"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
