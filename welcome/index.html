@@ -21,7 +21,7 @@
 
   <script src="index.js"></script>
 
-  <audio src="audio.mp3" autoplay="autoplay" preload="auto" loop="loop" ></audio>
+  <audio autoplay preload loop src="audio.mp3"> </audio>
 
 </head>
 
@@ -46,7 +46,7 @@
         function updateClock() {
           document.getElementById("countdown").innerHTML = totalTime;
           if (totalTime == 0) {
-            location.href ="https://heshersec01.github.io/landing/";
+            //location.href ="https://heshersec01.github.io/landing/";
           } else {
             totalTime -= 1;
             setTimeout("updateClock()", 1000);

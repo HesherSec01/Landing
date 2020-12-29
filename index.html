@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/form.css">
     <link rel='stylesheet' id='nta-css-popup-css' href='css/wsp.css' type='text/css' media='all' />
 
-    <audio src="/welcome/audio.mp3" autoplay="autoplay" preload="auto" loop="loop" ></audio>
+
     <!-- / Estilos de la web CSS-->
 
     <link rel="stylesheet"
@@ -130,9 +130,11 @@
         document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
 
+<audio autoplay preload loop src="audio.mp3"> </audio>
 </head>
 
 <body>
+
     <nav class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">One<span>Page.</span></a></div>
@@ -162,7 +164,7 @@
                     <div class="container" id="mc_embed_signup">
                         <label for="show" class="close-btn fas fa-times" title="close"></label>
                         <div class="text">Informate Gratis</div>
-                        <form id="task-form" >
+                        <form id="task-form">
                             <div class="data" class="mc-field-group">
                                 <label>Nombre</label>
                                 <input type="text" id="nombre" class="form-control" class="Task Title" required
@@ -180,7 +182,8 @@
                             </div>
                             <div class="data" class="mc-field-group">
                                 <label>WhatsApp</label>
-                                <input class="form__input" type="number" required id="task-whatsapp" class="form-control">
+                                <input class="form__input" type="number" required id="task-whatsapp"
+                                    class="form-control">
                             </div>
                             <div class="data" class="mc-field-group">
                                 <label>País<br></label>
@@ -289,9 +292,9 @@
                                 </select>
                             </div>
 
-                            
-                            <div class="btn"  class="full">
-                                <button id="enviar" type="submit">Enviar</button>                              
+
+                            <div class="btn" class="full">
+                                <button id="enviar" type="submit">Enviar</button>
                             </div>
 
                         </form>
@@ -317,7 +320,7 @@
                         // Initialize Firebase
                         firebase.initializeApp(firebaseConfig);
                     </script>
-                   
+
                     <!-- CUSTOM CODE -->
                     <script src="index.js"></script>
                 </div>
@@ -551,7 +554,7 @@
 
 
             <div class="wa__popup_content_list">
-                
+
 
                 <div class="wa__popup_content_item ">
                     <a target="_blank"
